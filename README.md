@@ -1,4 +1,4 @@
-🎉 Amigo Secreto - Alura
+🎉 Amigo Secreto - Alura<br>
 📌 Introducción al Proyecto
 En cualquier grupo de amigos, siempre surge el dilema de elegir a alguien para una tarea específica:
 ✔️ ¿Quién cumplirá un reto?
