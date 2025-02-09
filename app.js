@@ -21,21 +21,34 @@ function almacenarNombres(){
 
 //funcion para mostrar la lista de amigos dentro de la pagina
 function mostrarUsuario(){
+    //limpiar la lista
     lista.innerHTML = '';
+    //crear for para recorrer el array de los nombres 
     for(let i = 0; i < arrayNombrePersonas.length; i++){
+        //crear un elemento li por cada nombre dentro del array
         let li = document.createElement('li');
+        //darle un valor a cada li con el nombre del usuario
         li.textContent = arrayNombrePersonas[i];
+        //agregar el li a la lista
         lista.appendChild(li);
     }
 }
 
+//funcion para sortear el amigo secreto
 function sortearAmigo(){
+    //verificar si no hay personas o solo se encuentra una persona
     if(arrayNombrePersonas.length === 0 || arrayNombrePersonas.length === 1){
+        //mensaje de alerta
         alert("No hay usuarios para sortear o solo hay un usuario");
+    
     }else{
+        //obtener el numero de usuarios dentro del array
         let numeroUsuarios = arrayNombrePersonas.length;
+        //generar un numero aleatorio para seleccionar un usuario
         let sorteoAleatorio = Math.floor(Math.random()*numeroUsuarios);
+        //realizar el sorteo
         let amigoSeleccionado = arrayNombrePersonas[sorteoAleatorio];
+        //limpiar la lista y mostrar el usuario seleccionado
         lista.innerHTML = '';
         lista.innerHTML = `El amigo ganador fue ${amigoSeleccionado}`;
     }
