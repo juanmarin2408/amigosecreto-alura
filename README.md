@@ -1,8 +1,8 @@
-🎉 Amigo Secreto - Alura
+🎉 Amigo Secreto - Alura<br>
 📌 Introducción al Proyecto
-En cualquier grupo de amigos, siempre surge el dilema de elegir a alguien para una tarea específica:
-✔️ ¿Quién cumplirá un reto?
-✔️ ¿Quién pagará la comida?
+En cualquier grupo de amigos, siempre surge el dilema de elegir a alguien para una tarea específica:<br>
+✔️ ¿Quién cumplirá un reto?<br>
+✔️ ¿Quién pagará la comida?<br>
 ✔️ ¿Quién liderará el grupo?
 
 Este programa facilita esa decisión de forma rápida y sencilla mediante un sorteo automatizado.
